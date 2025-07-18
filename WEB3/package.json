@@ -1,17 +1,28 @@
 {
   "name": "WEB3",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+
+  "dependencies": {
+    "@vvs-finance/swap-sdk": "0.0.1",       
+    "node-telegram-bot-api": "^0.61.0",
+    "axios": "^1.6.8",
+    "big.js": "^7.6.2",
+    "dotenv": "^16.3.1"
+  },
+
   "devDependencies": {
     "prettier": "^3.3.1",
     "vite": "^5.1.6"
   },
+
   "overrides": {
     "eciesjs": "0.3.21"
   }
