@@ -904,22 +904,6 @@ export default [
     notificationThreshold: 0.5
   },
   {
-    name: "EOS",
-    cryptoTag: "EOS_USD",
-    buyAmount: 200.0,
-    swapAmount: 200.0,
-    contract: "0xA37caA841072a305a0799718aFA16cd504C52118",
-    notificationThreshold: 0.5
-  },
-  {
-    name: "EOS",
-    cryptoTag: "EOS_USD",
-    buyAmount: 100.0,
-    swapAmount: 100.0,
-    contract: "0xA37caA841072a305a0799718aFA16cd504C52118",
-    notificationThreshold: 1
-  },
-  {
     name: "QNT",
     cryptoTag: "QNT_USD",
     buyAmount: 100.0,
@@ -1361,7 +1345,7 @@ export default [
   },
   {
     name: "COS",
-    cryptoTag: "COSP_USD",
+    cryptoTag: "COS_USD",
     buyAmount: 100.0,
     swapAmount: 100.0,
     contract: "0xeb540106a1e006f6010fae45dc94ee5f4800d66d",
