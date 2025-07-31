@@ -1,21 +1,5 @@
 export default [
   {
-    name: "TRUMP",
-    cryptoTag: "TRUMP_USD",    // Тег для запитів до Crypto.com
-    buyAmount: 200.0,          // Сума для купівлі (сценарій 1)
-    swapAmount: 200.0,         // Сума для свапу (сценарій 2)
-    contract: "0xd1D7A0Ff6Cd3d494038b7FB93dbAeF624Da6f417",
-    notificationThreshold: 0.5
-  },
-  {
-    name: "TRUMP",
-    cryptoTag: "TRUMP_USD",    // Тег для запитів до Crypto.com
-    buyAmount: 100.0,          // Змінено з 200 на 100
-    swapAmount: 100.0,         // Змінено з 200 на 100
-    contract: "0xd1D7A0Ff6Cd3d494038b7FB93dbAeF624Da6f417",
-    notificationThreshold: 1
-  },
-  {
     name: "CORGIAI",
     cryptoTag: "CORGIAI_USD",
     buyAmount: 200.0,
@@ -181,30 +165,6 @@ export default [
     buyAmount: 100.0,
     swapAmount: 100.0,
     contract: "0x813EFfe620c71Bd1b522a8E6FA74C0e46C80DA2E",
-    notificationThreshold: 1
-  },
-  {
-    name: "CAW",
-    cryptoTag: "CAW_USD",
-    buyAmount: 200.0,
-    swapAmount: 200.0,
-    contract: "0xcCcCcCcCdbEC186DC426F8B5628AF94737dF0E60",
-    notificationThreshold: 0.5
-  },
-  {
-    name: "CAW",
-    cryptoTag: "CAW_USD",
-    buyAmount: 100.0,
-    swapAmount: 100.0,
-    contract: "0xcCcCcCcCdbEC186DC426F8B5628AF94737dF0E60",
-    notificationThreshold: 1
-  },
-  {
-    name: "CDCETH",
-    cryptoTag: "CDCETH_USD",
-    buyAmount: 400.0,
-    swapAmount: 400.0,
-    contract: "0x7a7c9db510aB29A2FC362a4c34260BEcB5cE3446",
     notificationThreshold: 1
   },
   {
@@ -800,22 +760,6 @@ export default [
     notificationThreshold: 1
   },
   {
-    name: "RADAR",
-    cryptoTag: "RADAR_USD",
-    buyAmount: 100.0,
-    swapAmount: 100.0,
-    contract: "0xa58e3AeAeA3292c3E260378e55E9684C59E7A27a",
-    notificationThreshold: 1
-  },
-  {
-    name: "RADAR",
-    cryptoTag: "RADAR_USD",
-    buyAmount: 200.0,
-    swapAmount: 200.0,
-    contract: "0xa58e3AeAeA3292c3E260378e55E9684C59E7A27a",
-    notificationThreshold: 0.5
-  },
-  {
     name: "ALGO",
     cryptoTag: "ALGO_USD",
     buyAmount: 200.0,
@@ -880,54 +824,6 @@ export default [
     notificationThreshold: 0.5
   },
   {
-    name: "SOL",
-    cryptoTag: "SOL_USD",
-    buyAmount: 200.0,
-    swapAmount: 200.0,
-    contract: "0xc9DE0F3e08162312528FF72559db82590b481800",
-    notificationThreshold: 0.5
-  },
-  {
-    name: "SOL",
-    cryptoTag: "SOL_USD",
-    buyAmount: 100.0,
-    swapAmount: 100.0,
-    contract: "0xc9DE0F3e08162312528FF72559db82590b481800",
-    notificationThreshold: 1
-  },
-  {
-    name: "SOL",
-    cryptoTag: "SOL_USD",
-    buyAmount: 500.0,
-    swapAmount: 500.0,
-    contract: "0xc9DE0F3e08162312528FF72559db82590b481800",
-    notificationThreshold: 1
-  },
-  {
-    name: "DOGE",
-    cryptoTag: "DOGE_USD",
-    buyAmount: 500.0,
-    swapAmount: 500.0,
-    contract: "0x1a8E39ae59e5556B56b76fCBA98d22c9ae557396",
-    notificationThreshold: 1
-  },
-  {
-    name: "DOGE",
-    cryptoTag: "DOGE_USD",
-    buyAmount: 100.0,
-    swapAmount: 100.0,
-    contract: "0x1a8E39ae59e5556B56b76fCBA98d22c9ae557396",
-    notificationThreshold: 1
-  },
-  {
-    name: "DOGE",
-    cryptoTag: "DOGE_USD",
-    buyAmount: 200.0,
-    swapAmount: 200.0,
-    contract: "0x1a8E39ae59e5556B56b76fCBA98d22c9ae557396",
-    notificationThreshold: 0.5
-  },
-  {
     name: "LDO",
     cryptoTag: "LDO_USD",
     buyAmount: 200.0,
@@ -960,7 +856,7 @@ export default [
     notificationThreshold: 0.5
   },
   {
-    name: "AR_USD",
+    name: "AR",
     cryptoTag: "AR_USD",
     buyAmount: 200.0,
     swapAmount: 200.0,
@@ -968,18 +864,10 @@ export default [
     notificationThreshold: 0.5
   },
   {
-    name: "AR_USD",
+    name: "AR",
     cryptoTag: "AR_USD",
     buyAmount: 100.0,
     swapAmount: 100.0,
-    contract: "0xeB6B3AEdA7A2705fAC5e2350fA4D71a64b393b37",
-    notificationThreshold: 1
-  },
-  {
-    name: "AR_USD",
-    cryptoTag: "AR_USD",
-    buyAmount: 300.0,
-    swapAmount: 300.0,
     contract: "0xeB6B3AEdA7A2705fAC5e2350fA4D71a64b393b37",
     notificationThreshold: 1
   },
@@ -1295,4 +1183,710 @@ export default [
     contract: "0xab9Cf8C5A9B6Cf5215c82D088D37d04bB146704A",
     notificationThreshold: 0.5
   },
+  {
+    name: "AAVE",
+    cryptoTag: "AAVE_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xE657b115bc45c0786274c824f83e3e02CE809185",
+    notificationThreshold: 1
+  },
+  {
+    name: "AAVE",
+    cryptoTag: "AAVE_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xE657b115bc45c0786274c824f83e3e02CE809185",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "ADA",
+    cryptoTag: "ADA_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x0e517979C2c1c1522ddB0c73905e0D39b3F990c0",
+    notificationThreshold: 1
+  },
+  {
+    name: "ADA",
+    cryptoTag: "ADA_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x0e517979C2c1c1522ddB0c73905e0D39b3F990c0",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "AGENTFUN",
+    cryptoTag: "AGENTFUN_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x96733708c4157218b6e6889eb9e16b1df7873061",
+    notificationThreshold: 1
+  },
+  {
+    name: "AGENTFUN",
+    cryptoTag: "AGENTFUN_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x96733708c4157218b6e6889eb9e16b1df7873061",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "ALICE",
+    cryptoTag: "ALICE_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x46efe38ec0558c48352e2ebc85af3bd2e87fb2a1",
+    notificationThreshold: 1
+  },
+  {
+    name: "ALICE",
+    cryptoTag: "ALICE_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x46efe38ec0558c48352e2ebc85af3bd2e87fb2a1",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "ATOM",
+    cryptoTag: "ATOM_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xb888d8dd1733d72681b30c00ee76bde93ae7aa93",
+    notificationThreshold: 1
+  },
+  {
+    name: "ATOM",
+    cryptoTag: "ATOM_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xb888d8dd1733d72681b30c00ee76bde93ae7aa93",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "AVAX",
+    cryptoTag: "AVAX_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x8d58088D4E8Ffe75A8b6357ba5ff17B93B912640",
+    notificationThreshold: 1
+  },
+  {
+    name: "AVAX",
+    cryptoTag: "AVAX_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x8d58088D4E8Ffe75A8b6357ba5ff17B93B912640",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "BARA",
+    cryptoTag: "BARA_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xF24409D155965ca87c45aD5BC084aD8aD3Be4f39",
+    notificationThreshold: 1
+  },
+  {
+    name: "BARA",
+    cryptoTag: "BARA_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xF24409D155965ca87c45aD5BC084aD8aD3Be4f39",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "BAT",
+    cryptoTag: "BAT_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x2f712e0a6f92e3f865eaeb86f07bafc67974d26c",
+    notificationThreshold: 1
+  },
+  {
+    name: "BAT",
+    cryptoTag: "BAT_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x2f712e0a6f92e3f865eaeb86f07bafc67974d26c",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "BOME",
+    cryptoTag: "BOME_USD",
+    buyAmount: 50.0,
+    swapAmount: 50.0,
+    contract: "0xb588051e6De4E22Cb9680942Bf6a77a7Bc34A2F0",
+    notificationThreshold: 1.5
+  },
+  {
+    name: "BOME",
+    cryptoTag: "BOME_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xb588051e6De4E22Cb9680942Bf6a77a7Bc34A2F0",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "CKB",
+    cryptoTag: "CKB_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x5deed46f39c485ba03b61d83763d0f6357dc4737",
+    notificationThreshold: 1
+  },
+  {
+    name: "CKB",
+    cryptoTag: "CKB_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x5deed46f39c485ba03b61d83763d0f6357dc4737",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "COMP",
+    cryptoTag: "COMP_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x4fb1af9d09db3fbbda96071eae0aeae6e871f9ac",
+    notificationThreshold: 1
+  },
+  {
+    name: "COMP",
+    cryptoTag: "COMP_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x4fb1af9d09db3fbbda96071eae0aeae6e871f9ac",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "COS",
+    cryptoTag: "COSP_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xeb540106a1e006f6010fae45dc94ee5f4800d66d",
+    notificationThreshold: 1
+  },
+  {
+    name: "COS",
+    cryptoTag: "COS_USD",
+    buyAmount: 50.0,
+    swapAmount: 50.0,
+    contract: "0xeb540106a1e006f6010fae45dc94ee5f4800d66d",
+    notificationThreshold: 1.5
+  },
+  {
+    name: "EGLD",
+    cryptoTag: "EGLD_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x5c54cc9a7abed2dd102361c142417756fb157292",
+    notificationThreshold: 1
+  },
+  {
+    name: "EGLD",
+    cryptoTag: "EGLD_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x5c54cc9a7abed2dd102361c142417756fb157292",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "ENJ",
+    cryptoTag: "ENJ_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x0A92ea8a197919aCb9BC26660Ed0D43D01ed26b7",
+    notificationThreshold: 1
+  },
+  {
+    name: "ENJ",
+    cryptoTag: "ENJ_USD",
+    buyAmount: 50.0,
+    swapAmount: 50.0,
+    contract: "0x0A92ea8a197919aCb9BC26660Ed0D43D01ed26b7",
+    notificationThreshold: 1.5
+  },
+  {
+    name: "ENS",
+    cryptoTag: "ENS_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xa0913e0d7a85954e89452e7ccb8d1235db74c330",
+    notificationThreshold: 1
+  },
+  {
+    name: "ENS",
+    cryptoTag: "ENS_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xa0913e0d7a85954e89452e7ccb8d1235db74c330",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "FUL",
+    cryptoTag: "FUL_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x83aFB1C32E5637ACd0a452D87c3249f4a9F0013A",
+    notificationThreshold: 1
+  },
+  {
+    name: "FUL",
+    cryptoTag: "FUL_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x83aFB1C32E5637ACd0a452D87c3249f4a9F0013A",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "GRT",
+    cryptoTag: "GRT_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x4c523222cd0de11616f7ad685f24145b9faf7996",
+    notificationThreshold: 1
+  },
+  {
+    name: "GRT",
+    cryptoTag: "GRT_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x4c523222cd0de11616f7ad685f24145b9faf7996",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "H2",
+    cryptoTag: "H2_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xd2eE4bD0d1BE7e84160dC459006f6E0970f8313C",
+    notificationThreshold: 1
+  },
+  {
+    name: "H2",
+    cryptoTag: "H2_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xd2eE4bD0d1BE7e84160dC459006f6E0970f8313C",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "HBAR",
+    cryptoTag: "HBAR_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xe0C7226a58f54db71eDc6289Ba2dc80349B41974",
+    notificationThreshold: 1
+  },
+  {
+    name: "HBAR",
+    cryptoTag: "HBAR_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xe0C7226a58f54db71eDc6289Ba2dc80349B41974",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "ICP",
+    cryptoTag: "ICP_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x8bf3e654075e269c1c415e4889c12d9837452be0",
+    notificationThreshold: 1
+  },
+  {
+    name: "ICP",
+    cryptoTag: "ICP_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x8bf3e654075e269c1c415e4889c12d9837452be0",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "KNC",
+    cryptoTag: "KNC_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xd73ebf885c4157d3e88c6d87ad3b8018b4a32fef",
+    notificationThreshold: 1
+  },
+  {
+    name: "KNC",
+    cryptoTag: "KNC_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xd73ebf885c4157d3e88c6d87ad3b8018b4a32fef",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "LCRO",
+    cryptoTag: "LCRO_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x9fae23a2700feecd5b93e43fdbc03c76aa7c08a6",
+    notificationThreshold: 1
+  },
+  {
+    name: "LCRO",
+    cryptoTag: "LCRO_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x9fae23a2700feecd5b93e43fdbc03c76aa7c08a6",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "LTC",
+    cryptoTag: "LTC_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x9d97Be214b68C7051215BB61059B4e299Cd792c3",
+    notificationThreshold: 1
+  },
+  {
+    name: "LTC",
+    cryptoTag: "LTC_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x9d97Be214b68C7051215BB61059B4e299Cd792c3",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "MANA",
+    cryptoTag: "MANA_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x6ed8c99e5c6b2c551e012e4272d8f3d1df23a71a",
+    notificationThreshold: 1
+  },
+  {
+    name: "MANA",
+    cryptoTag: "MANA_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x6ed8c99e5c6b2c551e012e4272d8f3d1df23a71a",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "MERY",
+    cryptoTag: "MERY_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x3b41b27e74dd366ce27cb389dc7877d4e1516d4d",
+    notificationThreshold: 1
+  },
+  {
+    name: "MERY",
+    cryptoTag: "MERY_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x3b41b27e74dd366ce27cb389dc7877d4e1516d4d",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "MTD",
+    cryptoTag: "MTD_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x0224010ba2d567ffa014222ed960d1fa43b8c8e1",
+    notificationThreshold: 1
+  },
+  {
+    name: "MTD",
+    cryptoTag: "MTD_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x0224010ba2d567ffa014222ed960d1fa43b8c8e1",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "PENDLE",
+    cryptoTag: "PENDLE_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x49c3bbb239f4fb44327073510f4ba72d207a81d6",
+    notificationThreshold: 1
+  },
+  {
+    name: "PENDLE",
+    cryptoTag: "PENDLE_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x49c3bbb239f4fb44327073510f4ba72d207a81d6",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "PUMP",
+    cryptoTag: "PUMP_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xfbd40beabdf81350e116f686e0fb7d24d867bf38",
+    notificationThreshold: 1
+  },
+  {
+    name: "PUMP",
+    cryptoTag: "PUMP_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xfbd40beabdf81350e116f686e0fb7d24d867bf38",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "SAND",
+    cryptoTag: "SAND_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x9097ea65b55dfc7383a7efb465e8ffc18d46e784",
+    notificationThreshold: 1
+  },
+  {
+    name: "SAND",
+    cryptoTag: "SAND_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x9097ea65b55dfc7383a7efb465e8ffc18d46e784",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "SAND",
+    cryptoTag: "SAND_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x9097ea65b55dfc7383a7efb465e8ffc18d46e784",
+    notificationThreshold: 1
+  },
+  {
+    name: "SAND",
+    cryptoTag: "SAND_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x9097ea65b55dfc7383a7efb465e8ffc18d46e784",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "SLP",
+    cryptoTag: "SLP_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xc00dcfbc7ac19b7210fa9c73b5f1d2e0f7e62711",
+    notificationThreshold: 1
+  },
+  {
+    name: "SLP",
+    cryptoTag: "SLP_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xc00dcfbc7ac19b7210fa9c73b5f1d2e0f7e62711",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "SLP",
+    cryptoTag: "SLP_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xc00dcfbc7ac19b7210fa9c73b5f1d2e0f7e62711",
+    notificationThreshold: 1
+  },
+  {
+    name: "SLP",
+    cryptoTag: "SLP_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xc00dcfbc7ac19b7210fa9c73b5f1d2e0f7e62711",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "SUI",
+    cryptoTag: "SUI_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x81710203a7fc16797ac9899228a87fd622df9706",
+    notificationThreshold: 1
+  },
+  {
+    name: "SUI",
+    cryptoTag: "SUI_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x81710203a7fc16797ac9899228a87fd622df9706",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "SUSHI",
+    cryptoTag: "SUSHI_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xdb3de0AAC8A39490932FA19c2e32F179368Ab840",
+    notificationThreshold: 1
+  },
+  {
+    name: "SUSHI",
+    cryptoTag: "SUSHI_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xdb3de0AAC8A39490932FA19c2e32F179368Ab840",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "UMA",
+    cryptoTag: "UMA_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x33564807cc70c6422124d867b344d7b90bf21a76",
+    notificationThreshold: 1
+  },
+  {
+    name: "UMA",
+    cryptoTag: "UMA_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x33564807cc70c6422124d867b344d7b90bf21a76",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "UNI",
+    cryptoTag: "UNI_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x16ad43896f7c47a5d9ee546c44a22205738b329c",
+    notificationThreshold: 1
+  },
+  {
+    name: "UNI",
+    cryptoTag: "UNI_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x16ad43896f7c47a5d9ee546c44a22205738b329c",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "VET",
+    cryptoTag: "VET_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xc9b5b981e7ffd630f456614d75230022f46fd03d",
+    notificationThreshold: 1
+  },
+  {
+    name: "VET",
+    cryptoTag: "VET_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xc9b5b981e7ffd630f456614d75230022f46fd03d",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "WIF",
+    cryptoTag: "WIF_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x25e8c72d267b96e757875d8b565a42c0e3b8f12f",
+    notificationThreshold: 1
+  },
+  {
+    name: "WIF",
+    cryptoTag: "WIF_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x25e8c72d267b96e757875d8b565a42c0e3b8f12f",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "XLM",
+    cryptoTag: "XLM_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x747d6c858168b8cd6e537160320b5de58fd3367c",
+    notificationThreshold: 1
+  },
+  {
+    name: "XLM",
+    cryptoTag: "XLM_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x747d6c858168b8cd6e537160320b5de58fd3367c",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "XLM",
+    cryptoTag: "XLM_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x747d6c858168b8cd6e537160320b5de58fd3367c",
+    notificationThreshold: 1
+  },
+  {
+    name: "XLM",
+    cryptoTag: "XLM_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x747d6c858168b8cd6e537160320b5de58fd3367c",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "XRP",
+    cryptoTag: "XRP_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xb9ce0dd29c91e02d4620f57a66700fc5e41d6d15",
+    notificationThreshold: 1
+  },
+  {
+    name: "XRP",
+    cryptoTag: "XRP_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xb9ce0dd29c91e02d4620f57a66700fc5e41d6d15",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "LOAF",
+    cryptoTag: "LOAF_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x75689264a5e2dab1b27ddfb2b10592872139659a",
+    notificationThreshold: 1
+  },
+  {
+    name: "LOAF",
+    cryptoTag: "LOAF_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x75689264a5e2dab1b27ddfb2b10592872139659a",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "CROB",
+    cryptoTag: "CROB_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0x63ed0a82cac237667c89cd6ac5bfa2317186fdaa",
+    notificationThreshold: 1
+  },
+  {
+    name: "CROB",
+    cryptoTag: "CROB_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0x63ed0a82cac237667c89cd6ac5bfa2317186fdaa",
+    notificationThreshold: 0.5
+  },
+  {
+    name: "AXS",
+    cryptoTag: "AXS_USD",
+    buyAmount: 100.0,
+    swapAmount: 100.0,
+    contract: "0xe27753e456aba584f10acef0b4e367ef38f01e14",
+    notificationThreshold: 1
+  },
+  {
+    name: "AXS",
+    cryptoTag: "AXS_USD",
+    buyAmount: 200.0,
+    swapAmount: 200.0,
+    contract: "0xe27753e456aba584f10acef0b4e367ef38f01e14",
+    notificationThreshold: 0.5
+  },
+
+
 ];
